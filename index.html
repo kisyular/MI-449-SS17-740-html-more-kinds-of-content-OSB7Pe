@@ -2,64 +2,69 @@
 <html>
 
   <head>
+    <!-- Latest compiled and minified CSS -->
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <title>Haiku</title>
   </head>
 
   <body>
-    <style>
-      table,
-      th,
-      td {
-        border: 1px solid black;
-      }
+    <div class="container">
+      <style>
+        table,
+        th,
+        td {
+          border: 1px solid black;
+        }
 
-      td {
-        padding: 15px;
-        text-align: left;
-      }
+        td {
+          padding: 15px;
+          text-align: left;
+        }
 
-      tr:hover {
-        background-color: #f5f5f5
-      }
+        tr:hover {
+          background-color: #f5f5f5
+        }
 
-      iframe {
-        margin: 20px 50px;
-      }
+        iframe,
+        p {
+          margin: 20px 50px;
+        }
+      </style>
+      <p>
+        Have you ever wanted to experince space <br /> But you have no means to get there-- <br /> Play "RunOff" for full space experience
+      </p>
+      <audio controls src="audio/win.wav"></audio>
 
-      p {
-        text-align: center;
-      }
-    </style>
-    <p>
-      Have you ever wanted to experince space <br /> But you have no means to get there-- <br /> Play "RunOff" for full space experience
-    </p>
-    <audio controls src="audio/win.wav"></audio>
-
-    <div style="overflow-x:auto;">
-      <table>
-        <thead>
-          <tr>
-            <th>RunOff</th>
-            <th>Grand Theft Auto</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>RunOff experience takes you to the Space</td>
-            <td>GTA experince can only take you to San City</td>
-          </tr>
-          <tr>
-            <td>RunOff is customizable for everyone irrespective of Age</td>
-            <td>GTA is only for adults and mature people</td>
-          </tr>
-          <tr>
-            <td>RunOff can be played in any platform from Nintendo to Webgl</td>
-            <td>GTA is only playable in PS3</td>
-          </tr>
-        </tbody>
-      </table>
+      <div style="overflow-x:auto;">
+        <table>
+          <thead>
+            <tr>
+              <th>RunOff</th>
+              <th>Grand Theft Auto</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>RunOff experience takes you to the Space</td>
+              <td>GTA experince can only take you to San City</td>
+            </tr>
+            <tr>
+              <td>RunOff is customizable for everyone irrespective of Age</td>
+              <td>GTA is only for adults and mature people</td>
+            </tr>
+            <tr>
+              <td>RunOff can be played in any platform from Nintendo to Webgl</td>
+              <td>GTA is only playable in PS3</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <iframe width="640" height="360" align="middle" src="https://www.youtube.com/embed/yGuqwNVd3lw" frameborder="0" allowfullscreen></iframe>
     </div>
-    <iframe width="640" height="360" align="middle" src="https://www.youtube.com/embed/yGuqwNVd3lw" frameborder="0" allowfullscreen></iframe> </body>
+  </body>
 
 </html>
